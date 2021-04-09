@@ -20,7 +20,7 @@ library(pastecs)
 ## Data Cleaning and Preparation
 
 ```{r}
-portland = read.csv('Portland.csv')
+portland = read.csv('C:\\Users\\Chang Sun\\Desktop\\DATA603\\Project\\Portland.csv')
 head(portland)
 names(portland)
 sapply(portland, function(x) sum(is.na(x)))
